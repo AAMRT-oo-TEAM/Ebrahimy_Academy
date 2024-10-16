@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../layouts/Button";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -7,11 +8,19 @@ const Home = () => {
       <div className="absolute z-[0] w-[30%] h-[50%] left-20 top-10 blue__gradient" />
       <div className="flex flex-col justify-center ">
         <h1 className="text-6xl font-semibold text-right md: font-IranianSans md:w-2/3">
-           آکادمی دو و میدانی ابراهیمی و فیروزی 
+          آکادمی دو و میدانی ابراهیمی و فیروزی
         </h1>
 
         <div className="flex flex-row w-full mt-5 font-bold md:w-2/4 font-IranianSans">
-          <Button title="پیوستن به تیم " />
+          <Link
+            to="plans"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="transition-all cursor-pointer hover:text-brightRed"
+          >
+            <Button title="پیوستن به تیم " />
+          </Link>
         </div>
       </div>
     </div>

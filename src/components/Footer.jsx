@@ -13,13 +13,14 @@ const Footer = () => {
               <h1 className="text-2xl font-semibold text-brightRed">فیت‌زون</h1>
             </Link>
             <p className="mt-4">
-              ما در فیت‌زون همراه شما هستیم تا به بهترین نسخه خود در زمینه تناسب
-              اندام برسید.
+              کسانی که قصد تمرینات حظوری دارند میتوانند با مربی از طریق شماره
+              درج شده و همچنین واتساپ با مربی در ارتباط باشند
             </p>
           </div>
           <div>
-            <h1 className="mt-4 text-xl font-medium">آدرس</h1>
+            <h1 className="mt-4 text-xl font-medium">آدرس محل های تمرینی</h1>
             <p className="mt-4">مجموعه شهید کشوری</p>
+            <p className="mt-4">پارک طالقانی </p>
           </div>
           <div>
             <h1 className="mt-4 text-xl font-medium">تماس</h1>
