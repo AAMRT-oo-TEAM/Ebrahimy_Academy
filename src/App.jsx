@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <div className="absolute z-[0] w-[30%] h-[350%] left-20 top-10 blue__gradient" />
       <div className="absolute z-[0] w-[30%] h-[350%] right-20 top-10 blue__gradient" />
       <Navbar />
