@@ -11,20 +11,20 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" md:fixed flex flex-row justify-between md:px-32 px-5 p-5 gap-16 ">
-        <div className=" flex items-center p-2">
+      <div className="flex flex-row justify-between gap-16 p-5 px-5  md:fixed md:px-32">
+        <div className="flex items-center p-2 ">
           <Link to="/">
-            <h1 className=" font-semibold text-2xl text-brightRed">FitZone</h1>
+            <h1 className="text-2xl font-semibold  text-brightRed">FitZone</h1>
           </Link>
         </div>
 
-        <nav className=" hidden md:flex items-center p-2 gap-5">
+        <nav className="items-center hidden gap-5 p-2  md:flex">
           <Link
             to="home"
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-brightRed  transition-all cursor-pointer font-bold font-IranianSans"
+            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
           >
             خانه
           </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
           >
             خرید اشتراک
           </Link>
@@ -42,16 +42,16 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
           >
-            !درباره من
+            !درباره مربیان
           </Link>
           <Link
             to="trainers"
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
           >
             شاگرد ها
           </Link>
@@ -60,13 +60,13 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
           >
             تماس باما
           </Link>
         </nav>
 
-        <div className="md:hidden flex items-center p-2" onClick={handleChange}>
+        <div className="flex items-center p-2 md:hidden" onClick={handleChange}>
           <AiOutlineMenuUnfold size={28} />
         </div>
       </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className=" hover:text-brightRed transition-all cursor-pointer"
+          className="transition-all cursor-pointer  hover:text-brightRed"
         >
           خانه
         </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className=" hover:text-brightRed transition-all cursor-pointer"
+          className="transition-all cursor-pointer  hover:text-brightRed"
         >
           خرید اشتراک
         </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className=" hover:text-brightRed transition-all cursor-pointer"
+          className="transition-all cursor-pointer  hover:text-brightRed"
         >
           درباره
         </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className=" hover:text-brightRed transition-all cursor-pointer"
+          className="transition-all cursor-pointer  hover:text-brightRed"
         >
           شاگرد ها
         </Link>
@@ -117,7 +117,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className=" hover:text-brightRed transition-all cursor-pointer"
+          className="transition-all cursor-pointer  hover:text-brightRed"
         >
           تماس با ما
         </Link>

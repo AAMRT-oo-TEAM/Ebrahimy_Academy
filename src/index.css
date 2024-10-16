@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body{
-    background-color: #000000;
-    color: white;
-    font-family: 'Inter', sans-serif;
+body {
+  background-color: #000000;
+  color: white;
 }
-
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 10%, #214d76 90%);

@@ -19,10 +19,6 @@ const App = () => {
           <Home />
         </div>
 
-        <div id="plans">
-          <Plans />
-        </div>
-
         <div id="about">
           <About />
         </div>
@@ -30,7 +26,11 @@ const App = () => {
         <div id="trainers">
           <Trainers />
         </div>
-        
+
+        <div id="plans">
+          <Plans />
+        </div>
+
         <div id="contact">
           <Contact />
         </div>
