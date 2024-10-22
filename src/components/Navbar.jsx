@@ -14,7 +14,11 @@ const Navbar = () => {
       <div className="flex flex-row justify-between gap-16 p-5 px-5  md:fixed md:px-32">
         <div className="flex items-center p-2 ">
           <Link to="/">
-            <h1 className="text-2xl font-semibold  text-brightRed">FitZone</h1>
+            <img
+              src="../../dist/assets/Logo.jpg"
+              alt="logo"
+              className="w-14 md:w-6"
+            />
           </Link>
         </div>
 
