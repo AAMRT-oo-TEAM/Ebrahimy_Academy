@@ -131,6 +131,12 @@ const Navbar = () => {
         >
           تماس با ما
         </Link>
+        <a
+          href="/Login"
+          className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+        >
+          ثبت نام
+        </a>
       </div>
     </div>
   );
