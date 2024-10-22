@@ -16,7 +16,7 @@ const Login = () => {
         <img src={IMG} alt="Login" className="mb-4 rounded-md shadow-md" />
 
         {/* توپ‌های متحرک */}
-        <div className="absolute top-0 left-0 w-12 h-12 bg-red-500 rounded-full ball"></div>
+        <div className="absolute top-6 left-2 w-12 h-12 bg-red-500 rounded-full ball"></div>
         <div className="absolute top-10 right-0 w-12 h-12 bg-blue-500 rounded-full ball"></div>
 
         <h2 className="text-2xl font-bold text-white text-center mb-6">
