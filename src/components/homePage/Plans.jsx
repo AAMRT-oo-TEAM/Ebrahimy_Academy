@@ -1,5 +1,5 @@
 import React from "react";
-import PlansCard from "../layouts/PlansCard";
+import PlansCard from "../../layouts/PlansCard";
 
 const Plans = () => {
   return (

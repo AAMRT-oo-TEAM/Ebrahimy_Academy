@@ -68,6 +68,12 @@ const Navbar = () => {
           >
             تماس باما
           </Link>
+          <a
+            href="/Login"
+            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+          >
+            ثبت نام
+          </a>
         </nav>
 
         <div className="flex items-center p-2 md:hidden" onClick={handleChange}>

@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../layouts/Button";
-import img from "../assets/img/contactImg.jpg";
+import Button from "../../layouts/Button";
+import img from "../../assets/img/contactImg.jpg";
 
 const Contact = () => {
   return (

@@ -1,43 +1,24 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Plans from "./components/Plans";
-import About from "./components/About";
-import Trainers from "./components/Trainers";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./Pages/HomePage";
+import Login from "./components/homePage/login/Login";
+import Signup from "./components/homePage/login/Signup";
+import ForgotPassword from "./components/homePage/login/ForgotPassword";
+import About from "./Pages/About";
 
 const App = () => {
   return (
-    <div className="scroll-smooth">
-      <div className="absolute z-[0] w-[30%] h-[350%] left-20 top-10 blue__gradient" />
-      <div className="absolute z-[0] w-[30%] h-[350%] right-20 top-10 blue__gradient" />
-      <Navbar />
-
-      <main>
-        <div id="home">
-          <Home />
-        </div>
-
-        <div id="about">
-          <About />
-        </div>
-
-        <div id="trainers">
-          <Trainers />
-        </div>
-
-        <div id="plans">
-          <Plans />
-        </div>
-
-        <div id="contact">
-          <Contact />
-        </div>
-      </main>
-
-      <Footer />
-    </div>
+    <Router>
+      <div className="scroll-smooth">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
