@@ -22,7 +22,7 @@ const Home = () => {
             duration={500}
             className="transition-all cursor-pointer hover:text-brightRed"
           >
-            <Button title="پیوستن به تیم " />
+            <Button className="-z-30" title="پیوستن به تیم " />
           </Link>
         </div>
       </div>

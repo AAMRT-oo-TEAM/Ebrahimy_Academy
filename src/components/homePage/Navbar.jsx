@@ -8,11 +8,20 @@ const Navbar = () => {
   const handleChange = () => {
     setMenu(!menu);
   };
+  // sticky navbar
+
+  window.addEventListener("scroll", function () {
+    var navbar = document.querySelector("#nav");
+    navbar.classList.toggle("sticky", window.scrollY > 0);
+  });
 
   return (
     <div>
-      <div className="flex flex-row justify-between gap-16 p-5 px-5  md:fixed md:px-32">
-        <div className="flex items-center p-2">
+      <div
+        id="nav"
+        className="flex flex-row justify-between gap-16 h-20 p-2 px-2 bg-slate-800   md:fixed md:px-0 w-screen"
+      >
+        <div className="flex items-center p-1">
           <Link to="/">
             <img
               src="../../dist/assets/Logo-removebg-preview.png"
@@ -22,7 +31,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <nav className="items-center hidden gap-5 p-2  md:flex">
+        <nav className="items-center hidden gap-5 p-2 mr-44  md:flex">
           <Link
             to="home"
             spy={true}

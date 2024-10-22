@@ -5,6 +5,7 @@
 body {
   background-color: #000000;
   color: white;
+  transition: 4000ms;
 }
 
 .blue__gradient {
@@ -36,4 +37,10 @@ body {
 
 .ball {
   animation: bounce-ball 1s infinite;
+}
+.sticky {
+  transition: 600ms;
+  padding: 0px;
+  margin: 0px;
+  visibility: hidden;
 }
