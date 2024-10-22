@@ -7,7 +7,10 @@ const Home = () => {
     <div className=" min-h-screen flex flex-row justify-between md:px-32 px-5 bg-[url('./assets/img/hero.jpg')] bg-cover bg-no-repeat ">
       <div className="absolute z-[0] w-[30%] h-[50%] left-20 top-10 blue__gradient" />
       <div className="flex flex-col justify-center ">
-        <h1 className="text-6xl font-semibold text-right md: font-IranianSans md:w-2/3">
+        <h1
+          className="text-6xl font-semibold text-right md: font-IranianSans md:w-2/3 md: text"
+          id="media-home-h1"
+        >
           آکادمی دو و میدانی ابراهیمی و فیروزی
         </h1>
 

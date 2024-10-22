@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex flex-row justify-between gap-16 p-5 px-5  md:fixed md:px-32">
-        <div className="flex items-center p-2 ">
+        <div className="flex items-center p-2">
           <Link to="/">
             <img
-              src="../../dist/assets/Logo.jpg"
+              src="../../dist/assets/Logo-removebg-preview.png"
               alt="logo"
-              className="w-14 md:w-6"
+              width={120}
             />
           </Link>
         </div>
