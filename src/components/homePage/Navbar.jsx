@@ -18,74 +18,74 @@ const Navbar = () => {
   return (
     <div>
       <div
-        id="nav"
-        className="flex flex-row justify-between gap-16 h-20 p-2 px-2 bg-slate-800   md:fixed md:px-0 w-screen"
+        id='nav'
+        className='flex flex-row justify-between gap-16 h-20 p-2 px-2 bg-slate-800   md:fixed md:px-0 w-screen'
       >
-        <div className="flex items-center p-1">
-          <Link to="/">
+        <div className='flex items-center p-1'>
+          <Link to='/'>
             <img
-              src="../../dist/assets/Logo-removebg-preview.png"
-              alt="logo"
+              src='../../dist/assets/Logo-removebg-preview.png'
+              alt='logo'
               width={120}
             />
           </Link>
         </div>
 
-        <nav className="items-center hidden gap-5 p-2 mr-44  md:flex">
+        <nav className='items-center hidden gap-5 p-2 mr-44  md:flex'>
           <Link
-            to="home"
+            to='home'
             spy={true}
             smooth={true}
             duration={500}
-            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
+            className='font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans'
           >
             خانه
           </Link>
           <Link
-            to="plans"
+            to='plans'
             spy={true}
             smooth={true}
             duration={500}
-            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
+            className='font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans'
           >
             خرید اشتراک
           </Link>
           <Link
-            to="about"
+            to='about'
             spy={true}
             smooth={true}
             duration={500}
-            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
+            className='font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans'
           >
             !درباره مربیان
           </Link>
           <Link
-            to="trainers"
+            to='trainers'
             spy={true}
             smooth={true}
             duration={500}
-            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
+            className='font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans'
           >
             شاگرد ها
           </Link>
           <Link
-            to="contact"
+            to='contact'
             spy={true}
             smooth={true}
             duration={500}
-            className="font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans"
+            className='font-bold transition-all cursor-pointer  hover:text-brightRed font-IranianSans'
           >
             تماس باما
           </Link>
           <a
-            href="/Login"
-            className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+            href='/Login'
+            className=' hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans'
           >
             ثبت نام
           </a>
         </nav>
 
-        <div className="flex items-center p-2 md:hidden" onClick={handleChange}>
+        <div className='flex items-center p-2 md:hidden' onClick={handleChange}>
           <AiOutlineMenuUnfold size={28} />
         </div>
       </div>
@@ -96,53 +96,53 @@ const Navbar = () => {
         } md:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
       >
         <Link
-          to="home"
+          to='home'
           spy={true}
           smooth={true}
           duration={500}
-          className="transition-all cursor-pointer  hover:text-brightRed"
+          className='transition-all cursor-pointer  hover:text-brightRed'
         >
           خانه
         </Link>
         <Link
-          to="plans"
+          to='plans'
           spy={true}
           smooth={true}
           duration={500}
-          className="transition-all cursor-pointer  hover:text-brightRed"
+          className='transition-all cursor-pointer  hover:text-brightRed'
         >
           خرید اشتراک
         </Link>
         <Link
-          to="about"
+          to='about'
           spy={true}
           smooth={true}
           duration={500}
-          className="transition-all cursor-pointer  hover:text-brightRed"
+          className='transition-all cursor-pointer  hover:text-brightRed'
         >
           درباره
         </Link>
         <Link
-          to="trainers"
+          to='trainers'
           spy={true}
           smooth={true}
           duration={500}
-          className="transition-all cursor-pointer  hover:text-brightRed"
+          className='transition-all cursor-pointer  hover:text-brightRed'
         >
           شاگرد ها
         </Link>
         <Link
-          to="contact"
+          to='contact'
           spy={true}
           smooth={true}
           duration={500}
-          className="transition-all cursor-pointer  hover:text-brightRed"
+          className='transition-all cursor-pointer  hover:text-brightRed'
         >
           تماس با ما
         </Link>
         <a
-          href="/Login"
-          className=" hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans"
+          href='/Login'
+          className=' hover:text-brightRed transition-all cursor-pointer font-bold font-IranianSans'
         >
           ثبت نام
         </a>
