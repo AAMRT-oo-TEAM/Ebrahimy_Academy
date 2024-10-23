@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import IMG from "../../../assets/img/o6.png";
 
 const ForgotPassword = () => {
   return (
@@ -14,7 +13,7 @@ const ForgotPassword = () => {
       <div className="relative bg-gray-850 p-8 rounded-lg shadow-lg w-full max-w-md mt-16">
         {/* تصویر */}
         <img
-          src={IMG}
+          src={"/assets/img/o6.png"}
           alt="Forgot Password"
           className="mb-4 rounded-md shadow-md"
         />

@@ -10,13 +10,13 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
-import img1 from "../assets/img/photo_2020-10-24_20-27-51.jpg";
-import img2 from "../assets/img/photo_2021-02-24_12-37-25.jpg";
-import img3 from "../assets/img/photo_2021-07-23_11-34-59.jpg";
-import student1 from "../assets/img/photo_2022-02-07_05-16-13.jpg"; // عکس شاگرد ۱
-import student2 from "../assets/img/photo_2022-10-06_10-47-22.jpg"; // عکس شاگرد ۲
-import student3 from "../assets/img/photo_2022-12-26_20-36-20.jpg"; // عکس شاگرد ۳
-import bannerImage from "../assets/img/contactImg.jpg"; // بنر مورد نظر شما
+// import img1 from "../assets/img/photo_2020-10-24_20-27-51.jpg";
+// import img2 from "../assets/img/photo_2021-02-24_12-37-25.jpg";
+// import img3 from "../assets/img/photo_2021-07-23_11-34-59.jpg";
+// import student1 from "../assets/img/photo_2022-02-07_05-16-13.jpg"; // عکس شاگرد ۱
+// import student2 from "../assets/img/photo_2022-10-06_10-47-22.jpg"; // عکس شاگرد ۲
+// import student3 from "../assets/img/photo_2022-12-26_20-36-20.jpg"; // عکس شاگرد ۳
+// import bannerImage from "../assets/img/contactImg.jpg"; // بنر مورد نظر شما
 
 const About = () => {
   const [showModal, setShowModal] = useState(false);
@@ -125,7 +125,7 @@ const About = () => {
       </section>
 
       {/* Image Section */}
-      <section className="container mx-auto px-6 py-10 text-center">
+      {/* <section className="container mx-auto px-6 py-10 text-center">
         <h2 className="text-4xl font-bold mb-6">عکس‌های مربی</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <img
@@ -144,7 +144,7 @@ const About = () => {
             className="rounded-lg shadow-lg transform transition-transform hover:scale-105"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Students Section */}
       <section
