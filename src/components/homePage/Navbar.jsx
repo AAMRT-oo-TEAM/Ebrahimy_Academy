@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='flex items-center p-1'>
           <Link to='/'>
             <img
-              src='../../dist/assets/Logo-removebg-preview.png'
+              src='../../../fuck\assets\Logo-removed-bg.png'
               alt='logo'
               width={120}
             />
